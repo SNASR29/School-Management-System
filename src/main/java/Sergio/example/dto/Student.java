@@ -26,7 +26,7 @@ public class Student {
     private String name;
 
     //the method that receives the requested info
-    public Student(String studentId, String firstName, String lastname, Department department) {
+    public Student( String firstName, String lastname, Department department) {
         this.studentId = String.format("S%03d", nextId++);
 
         this.courseNum = 0;
